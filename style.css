@@ -1,0 +1,80 @@
+.exicacis_1 {
+    margin-bottom: 15px;
+}
+.button_1 {
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgb(82, 82, 236);
+    border-color: blue;
+    font-size: 14px;
+    cursor: pointer;
+}
+.circle path:last-child {
+      display: none;
+}
+.fill path:first-child {
+      display: none;
+}
+
+.button_2 {
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgb(233, 230, 40);
+    border-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+}
+
+.exicacis_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.inp_massage {
+    border:4px solid rgb(186, 215, 236);
+    height: 23px;
+    width: 250px;
+}
+
+.window_chat {
+    border:4px solid rgb(186, 215, 236);
+    height: 300px;
+    width: 462px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.exicacis_3 .window__massage {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border:4px solid rgb(186, 215, 236);
+    min-height: 25px;
+    font-weight: 700;
+    margin: 5px 5px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.exicacis_3 .window_chat .window__massage-send {
+    align-self: flex-end;
+}
+
+.exicacis_3 .window_chat .window__massage-echo {
+    align-self: flex-start;
+}
+
+.button_3 {
+    height: 33px;
+    width: 100px;
+    background-color: rgb(186, 215, 236);
+    border: 0px;
+    cursor: pointer;
+}
